@@ -1,0 +1,96 @@
+<html>	
+
+<head>
+
+	<title> --- IWT Lab-3 --- </title>
+
+</head>
+
+<body bgcolor="skyblue">
+
+<!--Comment here-->
+<h1>Intro to Web Tech: Lab-3</h1>
+<h2>HTML Forms</h2>
+
+<p>
+In this lab we will practice how to get input from users through HTML Based Forms. Main elements and concepts to cover are:<br>
+Inputs, Radio Buttons, Checkboxes, Textareas, Select Drop-down Menus.
+</p>
+
+<hr />
+
+<form method="get">
+
+	<label for="first_name"> First Name: </label>
+	
+	<input type="text" name="f_name" placeholder="Your Name Goes Here.." title="e.g., Ali" />
+	
+	<label for="last_name"> Last Name: </label>
+	
+	<input type="text" name="l_name" placeholder="Your Name Goes Here.." title="e.g., Ahmed" />
+	
+	<label for="password"> Password: </label>
+	
+	<input type="password" name="password" />
+<p>	
+	<label for="phone"> Phone: </label>
+	
+	<input type="number" name="phone" value="12345" disabled />
+	
+	<label for="birthdate"> Date of Birth: </label>
+	
+	<input type="date" name="date" />
+	
+	<label for="gender"> Gender: </label>
+	
+	<input type="radio" value="Male" name="gender">Male</input>
+	
+	<input type="radio" value="Female" name="gender" checked>Female</input>
+	
+<p>	
+	<label for="hobbies"> Hobbies: </label>
+	
+	<input type="checkbox" value="Cricket" name="hobbies">Cricket</input>
+	
+	<input type="checkbox" value="Cooking" name="hobbies">Cooking</input>
+	
+	<input type="checkbox" value="Badminton" name="hobbies">Badminton</input>
+	
+	<input type="checkbox" value="Social Media" name="hobbies" checked>Social Media</input>
+	
+	<input type="checkbox" value="Sleeping" name="hobbies">Sleeping</input>
+	
+<p>	
+
+	<label for="profile"> Profile Picture: </label>
+	
+	<input type="file" name="profile" />
+	
+	<p>	
+	<label for="detail"> Description: </label>
+	
+	<textarea rows="5" cols="20">Something Description goes here...</textarea>
+<p>	
+
+	<label for="country"> Country: </label>
+	<select name="country">
+		<option value="PK">Pakistan</option><option value="IN" disabled>India</option><option value="RU" selected>Russia</option><option value="US">USA</option><option value="UK">UK</option><option value="SR">Sri Lanka</option><option value="BN">Bangladesh</option>
+	</select>
+	
+	<input type="hidden" name="hiddenfield" value="12345" />
+	
+	<input type="submit" value="Submit" />
+	<input type="reset" value="Cancel" />
+	
+
+</form>
+
+
+<p>
+<a href="https://classroom.google.com/u/2/c/NzUwNTI1Mjg5NzI5/a/NzU0OTc5MTc3OTQ4/details">Click Here for more details on this Lab</a>
+
+
+
+</body>
+
+</html>
